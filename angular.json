@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "kanban"
+  "defaultProject": "kanban",
+  "cli": {
+    "analytics": "9d7db481-9096-48de-8a45-2bd45b856186"
+  }
 }

@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+// Importing Google Fonts
+
+@import "../../kanban/node_modules/bulma/bulma.sass";
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700|Lato:400,800,900");
+
+$family-sans-serif: "Nunito", sans-serif;
+
+// Updating some of Bulma's component variables
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  background-image: url("https://qrohlf.com/images/trianglify/trianglify.png");
+  background-size: cover;
+
+  overflow-y: auto !important;
+}
